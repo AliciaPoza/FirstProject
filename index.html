@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr"><!--L'attribut lang, défini la langue utilisée pour le site, dans notre cas c'est "fr" pour français-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header></header><!-- Dans la balise <header>, on met l'header du site-->
+
+    <section><!-- Les balises <section> permettent de segmenter notre code-->
+        <h1>Mon titre principal</h1>
+
+        <h2>Un sous titre</h2>
+
+        <div>
+            <p>Ceci est un paragraphe ou je parle de moi</p>
+            <!-- le raccourci "lorem15", permet de remplir la balise avec 15 mots qui ne veulent rien dire -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sed minima labore minus. Provident, quod!</p>
+        </div>
+
+        <!-- La balise <a> permet d'insérer des liens vers d'autres site ou vers d'autres pages de notre site
+            Pour aller sur une autre page de notre site, il faut mettre le chemint de la page visée
+            exemple : <a href="structureHTML.html">Page 2</a> -->
+        <a href="https://www.google.fr/">Chercher sur google</a>
+    </section>
+
+    <section>
+        <h2>Mes listes</h2>
+
+        <ol>
+            <li>Premier élément</li>
+            <li>Deuxième élément</li>
+            <li>Troisième élément</li>
+        </ol>
+
+        <ul>
+            <li>Premier élément</li>
+            <li>Deuxième élément</li>
+            <li>Troisième élément</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Mon tableau</h2>
+
+        <table border="1"><!--L'attribut border permet de mettre une bordure par défaut en HTML-->
+            <thead>
+                <tr>
+                    <!--L'attribut colspan permet d'etendre un case sur plusieurs colonnes-->
+                    <th colspan="2">Ce que j'aime ou pas</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>+ j'aime</td>
+                <td>- j'aime pas</td>
+            </tr>
+            <tr>
+                <td>+ j'aime</td>
+                <td>- j'aime pas</td>
+            </tr>
+            <tr>
+                <td>+ j'aime</td>
+                <td>- j'aime pas</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Mon formulaire</h2>
+
+        <!-- La balise <form> contient tout le contenu d'un formulaire-->
+        <form action="">
+            <label for="pseudo">Pseudo :</label><!--La balise label, rajoute un label à un input. On le lie grace à l'attribut for qui prend la valeur de l'attribut id de l'input-->
+            <input type="text" id="pseudo"><!--Cette balise <input> avec l'attribut type="text", créée un champ pour entrer du texte -->
+
+            <input type="password">
+
+            <input type="email">
+
+            <!--Ici ceux sont les deux possibilités de créer un bouton pour envoyer le formulaire-->
+            <!-- <input type="submit"> -->
+            <button>Envoyer</button>
+        </form>
+    </section>
+
+    <footer></footer><!--La balise <footer> contient le footer du site, le pied de page-->
+</body>
+</html>
