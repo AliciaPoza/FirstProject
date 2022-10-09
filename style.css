@@ -6,5 +6,12 @@ u {
 }
 
 h2 {
-    color: sandybrown; font-size: 20px; font-weight: lighter; font-style: oblique;
+    color: sandybrown; font-size: 20px; font-weight: lighter; font-style: oblique; text-align: center;
+}
+
+a {
+    color:crimson;
+}
+a :hover {
+    background: firebrick; color: snow;
 }
