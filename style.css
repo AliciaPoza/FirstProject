@@ -1,17 +1,49 @@
 h1 {
     color: rosybrown; font-size: 40px; font-weight: bold; 
 }
+h1 {
+    animation: titreH1 2s ease-in-out alternate infinite;
+}
+@keyframes titreH1 {
+    0% {
+        color: darkturquoise;
+    }
+    33% {
+        color: dodgerblue;
+    }
+    66% {
+        color: lightseagreen;
+    }
+    100% {
+        color: dimgrey;
+    }
+}
 u {
     text-decoration-color: black;
 }
 
 h2 {
     color: sandybrown; font-size: 20px; font-weight: lighter; font-style: oblique; text-align: center;
+    margin: 1px;
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd, -19px 29px 2px;
 }
-
+p {
+    margin: 0px;
+    padding-bottom: 50px;
+    padding-left: 1px;
+    border-bottom: 1px red solid;
+    border-left: 1px red solid;
+}
 a {
     color:crimson;
+    transition: all 0.5s ease-in-out;
+
 }
-a :hover {
-    background: firebrick; color: snow;
+a:hover {
+    text-shadow: orangered;
+}
+
+img {
+    width: 150px;
+    height: 300px;
 }
