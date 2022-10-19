@@ -18,6 +18,12 @@ h1 {
         color: dimgrey;
     }
 }
+.date {
+    color: blueviolet; font-family: cursive;
+}
+.ville {
+    color:mediumpurple;
+}
 h2 {
     color: sandybrown; font-size: 20px; font-weight: lighter; font-style: oblique; text-align: center;
 }
