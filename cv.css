@@ -1,0 +1,32 @@
+h1 {
+    color:rosybrown; font-size: 40px; font-weight: bold;
+}
+h1 {
+    animation: titreH1 2s ease-in-out alternate infinite;
+}
+@keyframes titreH1 {
+    0% {
+        color: darkturquoise;
+    }
+    33% {
+        color: dodgerblue;
+    }
+    66% {
+        color: lightseagreen;
+    }
+    100% {
+        color: dimgrey;
+    }
+}
+h2 {
+    color: sandybrown; font-size: 20px; font-weight: lighter; font-style: oblique; text-align: center;
+}
+a {
+    color: crimson;
+}
+a:hover {
+    text-shadow: orangered;
+}
+table, td, th {
+    border: 1px black solid
+}
